@@ -1,4 +1,4 @@
-# To turn into a maintainer of PixelExperience:
+# To turn into a maintainer of CerberusOS:
 
 Before you apply to add your device into our list of official devices, you should know a few things:
 
@@ -8,10 +8,10 @@ Before you apply to add your device into our list of official devices, you shoul
 
 2 - You must have a good knowledge of git.
 
-3 - You must do an unofficial build for atleast 2 weeks,  be sure that the build is stable for daily usage before applying. Stability context may differ for different devices, so explain for any exceptions.
+3 - You must do an unofficial build,  be sure that the build is stable for daily usage before applying. Stability context may differ for different devices, so explain for any exceptions.
 
 4 - You must have your device sources public with proper authorship for each commit.
 
 5 - You must show the **real** used device sources.
 
-6 - Your device must be in accordance with the [Device Requirements](https://github.com/PixelExperience/docs/blob/master/device_requirements.md)
+6 - Contact in CerberusOS Public Group On Telegram : http://t.me/CerberusOS
