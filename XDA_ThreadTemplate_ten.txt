@@ -1,54 +1,198 @@
-Thread title: [ROM][BETA][10.0][DEVICE] Pixel Experience [AOSP][2019/09/13]
+Thread title: [ROM][BETA][10.0][DEVICE] CerberusOS [AOSP][2019/09/27]
 
 [CENTER]
-[img]https://i.imgur.com/GtwTyCR.png[/img]
-[SIZE="5"][b][color=#1a73e8]PixelExperience for DeviceName [codename][/color][/b][/SIZE]
+[CENTER][IMG="Cerberus"]https://github.com/CerberusOS/xda-template/blob/Pie/TITLE.png?raw=true[/IMG]
 
-[SIZE="4"][b][color=#1a73e8]What is this?[/color][/b][/SIZE]
-[SIZE="3"]Pixel Experience is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation)
+* Disclaimer 
+* I am not responsible for bricked devices, dead SD cards, thermonuclear war, 
+* or you getting fired because the alarm app failed. Please do some research 
+* if you have any concerns about features included in this ROM
+* before flashing it! YOU are choosing to make these modifications, and if
+* you blame me in any way for what happens to your device, I will laugh at you.
+* BOOM! goes the dynamite
 
-Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/intro.png?raw=true[/img]
+The Base Of CerberusOS is AOSP.
 
-Based on Android 10.0
-[/SIZE]
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/features.png?raw=true[/img]
+[HIDE]
+ [B]** Features Are Yet Not Implemented[/B]
+Button
+-------------------
+Customize action on Home,Recent & Back Button
+Answer call with vol+
+Reject call with vol-
+End call with power button
 
-[SIZE="4"][b][color=#1a73e8]Whats working?[/color][/b][/SIZE]
-[SIZE="3"]Wifi
-RIL
-Mobile data
-GPS
-Camera
-Flashlight
-Camcorder
-Bluetooth
-FMRadio
-Fingerprint reader
-NFC
-Lights
-Sound / vibration[/SIZE]
+Navigation Bar
+--------------------
+Nav bar enable/disable
+Customize layout of Nav bar
 
-[SIZE="4"][b][color=#1a73e8]Known issues[/color][/b][/SIZE]
-[SIZE="3"]Nothing[/SIZE]
+Recents
+--------------------
+Slim Recents
 
-[SIZE="3"][B]DON'T FLASH GAPPS, ALREADY INCLUDED[/B][/SIZE]
-[SIZE="3"][url="https://download.pixelexperience.org/DEVICE_CODENAME/"][b][color=#1a73e8][u]Download from Pixel Experience website[/u][/color][/b][/url][/SIZE]
+Status Bar
+--------------------
+Batter Bar (Customizable colors)
+Show Net activity on status bar
+Net activity autohide threshold
+Swap between 4G/LTE icon
+Enable/disable volte icon
+Enable/disable Roaming indicator
+DT2S
 
-[SIZE="4"][b][color=#1a73e8]Donate[/color][/b][/SIZE]
-[SIZE="3"][url="http://bit.ly/jhenrique09_paypal"][b][color=#1a73e8][u]Liked my work? Give me a beer[/u][/color][/b][/url][/SIZE]
+Quick Settings
+--------------------
+QS row column customization
+Brigntness slider position
+Vibrate on QS Tile
 
-[SIZE="4"][b][color=#1a73e8]Translation[/color][/b][/SIZE]
-[SIZE="3"][url="https://translate.pixelexperience.org/"][b][color=#1a73e8][u]Help with project translation[/u][/color][/b][/url][/SIZE]
+Notification
+---------------------
+Heads up notifications
+Notification ticker
 
-[SIZE="4"][b][color=#1a73e8]Stay tuned[/color][/b][/SIZE]
-[SIZE="3"][url="https://t.me/PixelExperience"][b][color=#1a73e8][u]Our Telegram channel[/u][/color][/b][/url][/SIZE]
-[SIZE="3"][url="https://blog.pixelexperience.org"][b][color=#1a73e8][u]Our blog[/u][/color][/b][/url][/SIZE]
+Lockscreen
+---------------------
+Fingerprint Auth vibration
+Smartlock Auto unlock
+Unlock with FP on reboot
+
+Themes
+----------------------
+Base Color (Light, Dark/Lignt Notification/Transparent, Black/Lignt Notification/Transparent)
+Various Accent Colors
+
+Animations
+-----------------------
+Screen off animation
+Users can select their own bootanimation
+
+System Extentions
+-----------------------
+Google sans font (requires reboot)
+Wakeup on double hand wave
+Sleep on double hand wave
+System App Remover
+
+Audio Tweaks
+------------------------
+High SBC bitrate
+Highest SBC bitrate
+Extreme SBC bitrate
+Suspend While Play
+
+Power Save Tweaks
+-------------------------
+Suspend Actions
+Sensor block per-package
+Aggresive idle
+Wakelock Blocker
+Throttle Alarms
+Restrict Screen On
+Whitlist
+App Ops
+
+Torch
+--------------------------
+Torch on Power Button
+Flash on incoming call
+
+In-call vibration
+---------------------------
+Vibrate on connect
+Vibrate on call waiting
+Vibrate on disconnect
+[/HIDE]
+
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/team.png?raw=true[/img]
+[MENTION=5581790]Pranav Trivedi : [/MENTION] (Project Leader - He Thinks)
+[MENTION=9506906]Rohan Hasabe :[/MENTION] (Project Co-Leader / Maintainer)
+[MENTION=8386921]Abhishek Singh: [/MENTION] (Project Co-Leader / Maintainer)
+[MENTION=7284063]Shantanu Singh : [/MENTION] (Developer & ASCII Guru)
+[MENTION=9350978]Alexandra Vissace[/MENTION](Developer & Bug Fixer)
+
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/support.png?raw=true[/img]
+[B]Telegram Group[/B] - [B][URL="https://t.me/CerberusOS"]CerberusOS Telegram Public Group[/URL][/B]
+
+[img]https://github.com/CerberusOS-Future/xda-template/blob/Pie/download.png?raw=true[/img]
+
+[B]ROM: [URL="https://sourceforge.net/projects/cerberusos/files/builds/DEVICE/"]DEVICE NAME[/URL][/B]
+
+[B]Gapps Package: [URL="https://opengapps.org/"] Open Gapps [/URL][/B]
+
+[B]It's recommended to flash Nano Gapps only for better user experience.[/B]
+
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/flashing%20ins.png?raw=true[/img]
+
+[B]Clean Flash[/B]
+1) Backup Everything (Most Important) + Latest Vendors And Firmware
+2) Download ROM, Gapps, Magisk, etc.
+3) Reboot to Recovery (TWRP)
+4) Wipe System, Data, Cache, Dalvik Cache.
+5) Flash - ROM + Gapps + Msgisk.
+6) Once done, wipe cache.
+7) Reboot to System.
+
+[B]Dirty Flash[/B]
+1) Backup Everything (Most Important) + Latest Vendors And Firmware
+2) Download ROM
+3) Reboot to Recovery (TWRP)
+4) Wipe Cache & Dalvik Cache.
+5) Flash - ROM.
+6) Once done, wipe cache.
+7) Reboot to System.
+
+**[B][COLOR="Red"]If you fail to follow these instructions, please don't bother reporting any bugs[/COLOR][/B]**
+
+**[B][COLOR="Red"]If you use Xposed, please don't bother reporting any bugs[/COLOR][/B]**
+
+**[B][COLOR="Red"]If you use another kernel, please don't bother reporting any bugs[/COLOR][/B]**
+
+
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/sources.png?raw=true[/img]
+
+[B]ROM Source[/B] - [B][URL="https://github.com/CerberusOS/manifest"]CerberusOS Pie Sources[/URL][/B]
+
+[B]Kernel Source[/B] - [B][URL="YOUR KERNEL SOURCE"]Kernel Source[/URL][/B]
+
+[B]Device Source[/B] - [B][URL="YOUR DEVICE SOURCE"]Device Source[/URL][/B]
+
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/credits.png?raw=true[/img]
+
+We would like to give thanks to everyone in the Android community, big or small.
+
+That said, we would like to Thank all These Teams for their contribution to the OpenSource Community.
+[HIDE]
+* [B][URL=https://github.com/baikalos]BaiKal OS[/B][/URL]
+* [B][URL=https://github.com/pixelexperience]Pixel Experience[/B][/URL]
+* [B][URL=https://github.com/LineageOS]LineageOS[/B][/URL]
+* [B][URL=https://github.com/GZOSP]GZOSP[/B][/URL]
+* [B][URL=https://github.com/Colt-Enigma]ColtOS Team[/B][/URL]
+* [B][URL=https://github.com/OmniRom]OmniROM[/B][/URL]
+* [B][URL=https://github.com/Nitrogen-Project]Nitrogen OS[/B][/URL]
+* [B][URL=https://github.com/AICP]AICP[/B][/URL]
+* [B][URL=https://github.com/CrDroidAndroid]crDroid[/B][/URL]
+* [B][URL=https://github.com/DirtyUnicorns]DirtyUnicorns[/B][/URL]
+* [B][URL=https://github.com/CypherOS]CypherOS[/B][/URL]
+* [B][URL=https://github.com/LiquidRemix]Liquid Remix[/B][/URL]
+* [B][URL=https://github.com/BootLeggersRom]BootLeggers ROM[/B][/URL]
+* [B][URL=https://github.com/AospExtended]AOSP Extended ROM[/B][/URL]
+* [B][URL=https://github.com/ResurrectionRemix]Resurrection Remix ROM[/B][/URL]
+* [B][URL=https://github.com/AospExtended]AospExtended[/B][/URL]
+* [B][URL=https://github.com/PotatoProject]PotatoOSP[/B][/URL]
+[/HIDE]
+**[B]If we have left someone or some team, we apologize and please PM us. We would be very happy to include your name as well.[/B]**
+
+[URL=https://www.paypal.me/pranavaryansroms]Click Here To Donate[/URL]
+
+[img]https://github.com/CerberusOS/xda-template/blob/Pie/note.png?raw=true[/img]
+
+1) Please do not use TiB. If you want use then try Swift Backup or Migrate. These are better options for now.
+2) Please Use Paid Themes preferably, so that Substratum Dev can keep on their good work.
+3) If you earn well, then don't hesitate to donate a few $$ to the devs you like. Its token of appreciation and will keep the devs motivated.
+
 [/CENTER]
-
-[LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 10.0.0_r2
-[*][b]Security patch level:[/b] September 2019
-[*][b]Build author/Device Maintainer:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
-[*][b]Device Source code:[/b] [url=https://github.com/PixelExperience-Devices]https://github.com/PixelExperience-Devices[/url]
-[*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
-[*][b]ROM Developer:[/b] [url=https://forum.xda-developers.com/member.php?u=6519039]jhenrique09[/url]
-[/list][/SIZE][/LEFT]
+[/CENTER]
